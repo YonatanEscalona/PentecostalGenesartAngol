@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pentecostal Genesart Angol</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              deep: "#040509",
+              gold: "#d5b67a",
+              teal: "#3ac7c0",
+              muted: "#c8c8d4",
+              panel: "rgba(12, 14, 20, 0.75)",
+              "border-soft": "rgba(255, 255, 255, 0.15)",
+            },
+            fontFamily: {
+              display: ["Cormorant Garamond", "serif"],
+              body: ["Source Sans 3", "Segoe UI", "sans-serif"],
+            },
+            backgroundImage: {
+              "hero-blend":
+                "linear-gradient(120deg, rgba(4,5,9,0.85), rgba(4,5,9,0.35)), url('./InglesiaVIva.png')",
+            },
+            boxShadow: {
+              glow: "0 25px 80px rgba(0,0,0,0.55)",
+            },
+            keyframes: {
+              scroll: {
+                "0%": { opacity: "0", transform: "translate(-50%, -6px)" },
+                "40%": { opacity: "1", transform: "translate(-50%, 4px)" },
+                "100%": { opacity: "0", transform: "translate(-50%, 12px)" },
+              },
+            },
+            animation: {
+              scroll: "scroll 2s infinite",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="min-h-screen bg-deep text-[#f5f4ef] font-body">
+    <header class="border-b border-border-soft px-[5vw] py-3 text-[0.8rem] uppercase tracking-[0.15em] text-muted">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div class="rounded-2xl border border-border-soft/70 bg-white/5 p-3 text-xs shadow-glow/30">
+          <p class="mb-2 flex items-center gap-2 text-muted/80">
+            <span class="h-1 w-1 rounded-full bg-teal"></span>
+            Síguenos
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <a
+              class="flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-[0.7rem] tracking-[0.18em] transition hover:bg-teal/20"
+              href="#"
+              aria-label="Facebook"
+            >
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M13.5 9H15V6h-2c-2.2 0-3.5 1.3-3.5 3.5V12H7v3h2.5v7h3V15H15l.5-3h-3v-1.2c0-.5.2-.8 1-.8Z" />
+              </svg>
+              Fb
+            </a>
+            <a
+              class="flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-[0.7rem] tracking-[0.18em] transition hover:bg-teal/20"
+              href="#"
+              aria-label="Instagram"
+            >
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" />
+                <circle cx="17.5" cy="6.5" r="0.9" fill="currentColor" />
+              </svg>
+              Ig
+            </a>
+            <a
+              class="flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-[0.7rem] tracking-[0.18em] transition hover:bg-teal/20"
+              href="#"
+              aria-label="YouTube"
+            >
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M21.6 7.2c-.2-.9-.9-1.6-1.8-1.8C18 5 12 5 12 5s-6 0-7.8.4c-.9.2-1.6.9-1.8 1.8C2 9 2 12 2 12s0 3 .4 4.8c.2.9.9 1.6 1.8 1.8C6 19 12 19 12 19s6 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.8.4-4.8.4-4.8s0-3-.4-4.8ZM10 15.2V8.8L15.2 12 10 15.2Z" />
+              </svg>
+              Yt
+            </a>
+          </div>
+        </div>
+        <div class="grid gap-2 text-[0.7rem] tracking-[0.15em] text-white/90 sm:text-right sm:text-xs">
+          <div class="flex items-center gap-2 text-gold sm:justify-end">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5.5 9 9l3-3 4 3.5L21 7v6l-6 3-3-2.5-4 4.5-5-3z" />
+            </svg>
+            <span>Llámanos +000 123 456 789</span>
+          </div>
+          <div class="flex items-center gap-2 text-muted sm:justify-end">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-5 7-11a7 7 0 1 0-14 0c0 6 7 11 7 11Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
+            <span>María Bisquert 1189 · Angol, Chile</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav
+      class="flex flex-col gap-5 px-[5vw] py-6 text-[0.85rem] uppercase tracking-[0.2em] md:flex-row md:flex-wrap md:items-center md:justify-between"
+    >
+      <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <svg
+            class="h-12 w-12 text-teal"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M32 6L20 20v24h8V34h8v10h8V20z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <circle cx="32" cy="12" r="3" fill="currentColor"></circle>
+          </svg>
+          <div class="leading-tight">
+            <p class="text-[0.75rem] uppercase text-muted">Comunidad</p>
+            <p class="font-display text-xl tracking-[0.25em]">Pentecostal Genesart Angol</p>
+          </div>
+        </div>
+        <button
+          id="menuToggle"
+          class="flex h-11 w-11 items-center justify-center rounded-full border border-border-soft text-white transition hover:border-teal hover:text-teal md:hidden"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" d="M4 7h16M4 12h16M10 17h10" />
+          </svg>
+        </button>
+      </div>
+      <div
+        id="navMenu"
+        class="hidden w-full flex-col gap-4 border-y border-border-soft py-4 text-center text-sm md:flex md:w-auto md:flex-row md:items-center md:gap-6 md:border-none md:py-0"
+      >
+        <ul class="flex flex-col gap-3 md:flex-row md:items-center md:gap-6">
+          <li><a class="hover:text-teal" href="#home">Home</a></li>
+          <li><a class="hover:text-teal" href="#iglesia">Iglesia</a></li>
+          <li><a class="hover:text-teal" href="#oracion">Oración</a></li>
+          <li><a class="hover:text-teal" href="#fundadores">Fundadores</a></li>
+          <li><a class="hover:text-teal" href="#radio">Radio</a></li>
+        </ul>
+        <a
+          class="w-full rounded-full border border-border-soft px-6 py-3 text-center text-[0.85rem] transition hover:border-teal hover:text-teal md:w-auto"
+          href="#donaciones"
+        >
+          Donar
+        </a>
+      </div>
+    </nav>
+
+    <main
+      class="relative overflow-hidden bg-hero-blend bg-cover bg-[position:60%_center] px-[5vw] pb-20 pt-16 text-white md:bg-center md:pb-28 md:pt-20"
+    >
+      <div
+        class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(58,199,192,0.25),transparent_60%)]"
+      ></div>
+      <div class="relative z-10 max-w-2xl space-y-5">
+        <h1 class="font-display text-[clamp(2.8rem,6vw,5rem)] uppercase tracking-[0.35em]">
+          Pentecostal<br />
+          <span class="text-gold">Genesart Angol</span>
+        </h1>
+        <p class="text-lg tracking-[0.05em]">
+          Pentecostal Genesart Angol, la iglesia que late contigo y enciende tu fe día a día.
+        </p>
+        <p class="text-muted">
+          Únete a nuestra comunidad, apoya los proyectos solidarios y disfruta de la transmisión de Radio Pentecostal Genesart Angol,
+          porque más que una radio, somos una gran familia.
+        </p>
+        <div class="flex flex-col gap-3 sm:flex-row">
+          <a
+            class="rounded-full bg-gold px-6 py-3 text-[0.85rem] uppercase tracking-[0.2em] text-[#1c1306] shadow-glow transition hover:bg-transparent hover:text-gold"
+            href="#donaciones"
+          >
+            Quiero contribuir
+          </a>
+          <a
+            class="rounded-full border border-transparent px-6 py-3 text-[0.85rem] uppercase tracking-[0.2em] text-white transition hover:border-teal hover:text-teal"
+            href="#radio"
+          >
+            Escuchar la radio
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="radio"
+        class="relative mt-10 flex w-full flex-col gap-4 rounded-2xl border border-border-soft bg-panel/80 p-5 backdrop-blur lg:absolute lg:right-[6vw] lg:bottom-24 lg:w-[360px]"
+      >
+        <div class="space-y-1">
+          <p class="text-[0.7rem] uppercase tracking-[0.35em] text-teal">En vivo</p>
+          <p class="text-sm tracking-[0.2em]">Radio Pentecostal Genesart Angol</p>
+          <p class="text-muted text-sm">Más que una radio, somos una gran familia.</p>
+        </div>
+        <audio
+          class="w-full rounded-lg border border-border-soft/80 bg-black/30 px-3 py-2 text-xs text-white"
+          controls
+          preload="none"
+          aria-label="Reproductor de Radio Pentecostal Genesart Angol"
+        >
+          <source src="http://138.255.103.11:8010/stream" type="audio/mpeg" />
+          Tu navegador no soporta audio HTML5.
+        </audio>
+        <a
+          class="text-center text-[0.65rem] uppercase tracking-[0.3em] text-muted underline-offset-4 hover:text-teal hover:underline"
+          href="http://138.255.103.11:8010/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver estado del servidor
+        </a>
+      </div>
+
+      <div
+        class="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-center text-xs uppercase tracking-[0.3em] text-muted"
+        aria-hidden="true"
+      >
+        <span>Desliza</span>
+        <div class="mx-auto mt-3 h-9 w-[22px] rounded-full border border-border-soft">
+          <div class="mx-auto h-2 w-[2px] bg-teal animate-scroll"></div>
+        </div>
+      </div>
+    </main>
+    <script>
+      const toggle = document.getElementById("menuToggle");
+      const menu = document.getElementById("navMenu");
+      toggle?.addEventListener("click", () => {
+        menu?.classList.toggle("hidden");
+        const expanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", (!expanded).toString());
+      });
+    </script>
+  </body>
+</html>
